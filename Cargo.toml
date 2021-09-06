@@ -1,0 +1,12 @@
+[package]
+edition = "2018"
+name = "twoword"
+version = "0.1.0"
+description = "Construct bigger uints by combining two smaller ones into a two-word uint"
+keywords = ["bigint", "uint"]
+categories = ["mathematics", "algorithms"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/corrodedHash/twoword-rs"
+
+[dependencies.num-traits]
+version = "0.2.14"
